@@ -154,6 +154,18 @@ export function SidebarModulesSection({
         title: t('Users'),
         description: t('Administer user accounts and roles.'),
       },
+      systemInfo: {
+        title: t('System Info'),
+        description: t(
+          'View performance, system tasks, and system information.'
+        ),
+      },
+      taskPlugins: {
+        title: t('Task Plugins'),
+        description: t(
+          'List registered task plugins and bind them when creating or editing task plugin channels.'
+        ),
+      },
       setting: {
         title: t('System settings'),
         description: t('Advanced platform configuration.'),
