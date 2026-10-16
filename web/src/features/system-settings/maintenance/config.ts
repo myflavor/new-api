@@ -80,6 +80,8 @@ export const SIDEBAR_MODULES_DEFAULT: SidebarModulesAdminConfig = {
     models: true,
     redemption: true,
     user: true,
+    systemInfo: true,
+    taskPlugins: true,
     setting: true,
     subscription: true,
   },
